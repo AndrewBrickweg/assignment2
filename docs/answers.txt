@@ -1,0 +1,48 @@
+https://github.com/AndrewBrickweg/assignment2
+Git Lab Tutorials 3/2/26
+GitHub Creation Date: 8/1/2022
+
+1.
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 365 bytes | 365.00 KiB/s, done.
+Total 4 (delta 1), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AndrewBrickweg/assignment2.git
+   d38249c..7be9751  master -> master
+
+2.
+git rev-list --count HEAD
+9
+
+3.
+git log -1 --format=%ci -- README.md
+2026-03-02 21:31:01 -0500
+
+4.
+Branches allow developers to work on new features or bug fixes without affecting the main branch. This keeps the main codebase stable while changes are being developed and tested.
+Branches also allow multiple developers to work in parallel on different tasks. Each developer can isolate their work and merge it back into the main branch once it is complete and reviewed.
+
+5.
+git log shows the commit history of the repository. It displays past commits, including commit IDs, authors, dates, and commit messages.
+git status shows the current state of the working directory and staging area. It tells you which files are modified, staged, untracked, or ready to be committed.
+
+6.
+git log -- Vehicle.h
+
+7.
+git log --grep="file"
+
+8.
+Inheritance is when one class derives from another and gains its attributes and methods while being able to extend or modify them.
+Polymorphism allows objects of different classes to be treated as a common base type so the same method call can produce different behavior.
+Encapsulation is the practice of bundling data and related methods within a class while restricting direct access to internal data using access controls.
+
+9.
+The Integration Manager workflow has one person merge all changes into the central repository, while the Dictator and Lieutenants workflow has
+lieutenants review changes and only the dictator can update the central repository.
+
+10.
+With 100 developers, the Dictator and Lieutenants workflow reduces bottlenecks and conflicts by spreading integration work across lieutenants instead of having everyone push directly to one shared repository.
